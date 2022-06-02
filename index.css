@@ -13,7 +13,7 @@ body{
     font-family: 'Merriweather', serif;
 }
 .background-text{
-    font-size:4rem;
+    font-size: 4rem;
     color:rgba(0, 0, 0, 0.082);
     margin: 0px;
     position: absolute;
@@ -54,7 +54,7 @@ body{
     
 }
 #about-section p{
-    font-size: 3rem;
+    font-size: 2rem;
     color: black;
     font-family: 'Gentium Plus', serif;
     text-shadow: 2px 2px white;
@@ -73,7 +73,7 @@ body{
     font-size: 2rem;
     color: black;
     font-family: 'Gentium Plus', serif;
-    text-shadow: 2px 2px white;
+    text-shadow: 0.25px 0.25px white;
 }
 .Innovation-problem{
     padding-bottom: 5%;
@@ -83,9 +83,15 @@ body{
     border-radius: 5%;
 }
 .Innovation-solution img{
-    width: 70%;
+    width: 85%;
     margin-bottom: 3%;
     border-radius: 5%;
+}
+.Innovation-solution{
+    padding-bottom: 5%;
+}
+.Innovation-status video{
+    width: 95%;
 }
 
 
