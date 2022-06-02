@@ -66,8 +66,7 @@ body{
 
 /* Innovation section css */
 #Innovation-section{
-    padding: 3% 7% 6% 7%;
-    
+    padding: 3% 7% 6% 7%;   
 }
 #Innovation-section p{
     font-size: 2rem;
@@ -94,7 +93,16 @@ body{
     width: 95%;
 }
 
-
+/* gallery css */
+#gallery-section{
+    padding: 3% 7% 6% 7%;   
+}
+.gallery-img{
+    border-radius: 5%;
+    padding: 2%;
+    width: 85%;
+    text-align: center;
+}
 
 
 
