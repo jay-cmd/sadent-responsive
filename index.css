@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin : 0px;
+}
+.navbar-brand,.nav-item{
+    font-family: 'Merriweather', serif;
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+.nav-item{
+    font-size: 1.5rem;
+}
+#title-section{
+    background-color: #A6CF98;
+    padding: 3% 7% 6% 7%;
+}
+#title-section p{
+    font-size: 3rem;
+    color: white;
+    font-family: 'Gentium Plus', serif;
+    text-shadow: 2px 2px grey;
+}
+#title-section img{
+    width: 85%;
+    border-radius: 5%;
+}
+.align-center{
+    text-align: center;
+}
+

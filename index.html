@@ -1,43 +1,143 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+     <!-- Custom CSS -->
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
-    <title>Sadent</title>
-  </head>
-  <body>
-    <div class="container-fluid" style="margin-top:15px;">
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #A6CF98;border-radius: 25px; ">
-      <a class="navbar-brand ms-3" href="#">Sadent</a>
-      <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>  
-      <div class=" collapse navbar-collapse ms-3" id="navbarNavDropdown">
-        <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link">About</a></li>
-            <li class="nav-item"><a class="nav-link">Innovation</a></li>
-            <li class="nav-item"><a class="nav-link">Gallery</a></li>
-            <li class="nav-item"><a class="nav-link">Founder</a></li>
-            <li class="nav-item me-3"><a class="nav-link">Contact</a></li>
-        </ul>
+    <!-- BootStrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>SADENT</title>
+</head>
+<body>
+    <section id="title-section">
+        <nav class="navbar navbar-expand-lg navbar-light container-fluid" style="background-color: #A6CF98;">
+            <a class="navbar-brand" href="#">SADENT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">INNOVATION</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">GALLERY</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">FOUNDER</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="row" style="padding-top: 5%;">
+            <div class="column-lg-6 col-md-6 col-sm-12 align-center" style="margin: auto 0;">
+                <p>WE DREAM TO SAVE LIVES FROM ACCIDENTS.</p>
+            </div>
+            <div class="column-lg-6 col-md-6 col-sm-12 align-center">
+                <img src="./landing-page-background-image.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id = "about-section">
+        <div class="nav-bar">
+            <h1 class="background-text">VISION</h1>
+            <h1 class="front-text">ABOUT</h1>
+        </div>
+        <div class="about-section-body">
+            <div class="about-left-section">
+                <p class="about-decsription">The Overall Security Kit For Two Wheelers To Protect Travellers From Getting Injured In Uncomfortable Accidents.</p>
+            </div>
+            <div class="about-right-section">
+                <img style="width:75%;border-radius: 25px;" src="./IMG-20210813-WA0001.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="Innovation-problem">
+        <div class="Innovation-problem-left-section">
+            <div class="innovaton-nav-bar">
+                <h1 class="innovation-background-text">INNOVATION</h1>
+                <h1 class="innovation-front-text">PROBLEM</h1>
+            </div>
+            <img class = "image" src="./problem.jpg" alt="">
+        </div>
+        <div class="Innovation-problem-right-section">
+            <p class="problem-desc">Now a Days two wheeler accidents are increasing enormously day by day. According to national crime records of the Bureau and World health organization around 2000+ people are exposed to injuries and around 500+ people are dying because of two wheeler accidents. There's no decrease in this rate.
+                Even I personally experienced one moment where my hand elbow fracture and knee damage took place. There was one more deadly accident which my brother met with where It almost took him 6 months to recover.
+               major accident scale is due to wheel skidding This can be because of abnormal roads or if any obstacle hits the bike from the rear side as I experienced that will lead to wheel skidding. Due to that the person's on the bike will be exposed to injuries. This is the major problem of the occurrence of two wheeler accidents.
+           </p>
+        </div>
+    </section>
+    <section id="Innovation-solution">
+        <div class="innovaton-sol-nav-bar">
+            <h1 class="innovation-sol-background-text">INNOVATION</h1>
+            <h1 class="innovation-sol-front-text">SOLUTION</h1>
+        </div>
+        <div class="innnovation-solution-body">
+            <div class="innovation-solution-left-section">
+                <p class="problem-desc">Is abbreviated as SAFE ACCIDENT which is innovated for two wheeler where the main intention of this source is to save the persons from injuries by stopping them from not getting in contact with road
+                    AIRBAGS IN TWO WHEELER This innovation mainly concentrates on saving the knee elbow and head of the persons by deploying the airbag within no time when there is a situation of unbalancing This study will be helpful at the angle where the person cannot bear the weight of the bike and at a position where the rider is about to fall In this scenario my invention will be useful in avoiding injuries by deploying the airbag by covering the arms legs and head of the persons on the bike SEAT BELTS IN TWO WHEELER
+                    There are many cases that persons jump from the bike and get in contact with road This is also a major defect in two wheeler To set the persons in place on the bike even though the accident occurs seat belts in two wheeler perform a crucial role to decrease this defect and stop the persons jumping from the bike
+                </p>
+            </div>
+            <div class ="innovation-solution-right-section">
+                <img src="./Seatbealt.png" alt="image">
+                <img src="./airbag.png" alt="image">
+            </div>
+        </div>
+
+    </section>
+    <section id="Innovation-status">
+        <div class="padding">
+        <div class="innovaton-sol-nav-bar">
+            <h1 class="innovation-sol-background-text">INNOVATION</h1>
+            <h1 class="innovation-sol-front-text">STATUS</h1>
+        </div>
       </div>
-    </nav>
-    </div>
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
-  </body>
+      <div style="display:flex;justify-content:space-around;">
+        <h3 style="width:20%;font-size:38px;color:white;text-transform:Uppercase;margin-top:auto;margin-bottom:auto;">Basic Prototype</h3>
+        <video width="1080" height="720" controls autoplay>
+            <source src="./proto.mp4" type="video/mp4">
+          </video>
+      </div>
+    </section>
+    <section id="gallery">
+      <div class="gallery-nav-bar">
+          <h1 class="gallery-background-text">GALLERY</h1>
+          <h1 class="gallery-front-text">PHOTOS</h1>
+      </div>
+      <div class="pictures">
+        <img class="gallery-img" src="./1.jpeg" alt="photo">
+        <img class="gallery-img" src="./2.jpeg" alt="photo">
+        <img class="gallery-img" src="./3.jpeg" alt="photo">
+        <img class="gallery-img" src="./6.jpeg" alt="photo">
+        <img class="gallery-img" src="./4.jpeg" alt="photo">
+        <img class="gallery-img" src="./5.jpeg" alt="photo">
+      </div>
+    </section>
+    <section id="videos">
+        <div class="videos-nav-bar">
+            <h1 class="videos-background-text">GALLERY</h1>
+            <h1 class="videos-front-text">VIDEOS</h1>
+        </div>
+        <div class="videos-article">
+            <article class="video-wrapper">
+                <video style="border-top-left-radius: 25px;border-top-right-radius: 25px;" width="100%" controls>
+                    <source src="./suman.mp4" type="video/mp4">
+                </video>
+                <h3 class="video-thumbnail">Chitta Sri Yasaswi Kasyap Innovation Suman Tv</h3>
+            </article>
+            <article class="video-wrapper">
+                <video style="border-top-left-radius: 25px;border-top-right-radius: 25px;" width="100%" controls>
+                    <source src="./yuva.mp4" type="video/mp4">
+                </video>
+                <h3 class="video-thumbnail">Chitta Sri Yasaswi Kasyap Innovation Yuva Program</h3>
+            </article>
+        </div>
+    </section> -->
+    <script src="./index.js"></script>
+</body>
 </html>
