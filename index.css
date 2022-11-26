@@ -42,7 +42,7 @@ body{
 #patent-section p{
     font-size: 3rem;
     color: black;
-    font-family: 'Gentium Plus', serif;
+    font-family: 'Merriweather', serif;
     
 }
 #title-section{
@@ -52,7 +52,7 @@ body{
 #title-section p{
     font-size: 3rem;
     color: white;
-    font-family: 'Gentium Plus', serif;
+    font-family: 'Merriweather', serif;
     text-shadow: 2px 2px grey;
 }
 
@@ -72,7 +72,7 @@ body{
 #about-section p{
     font-size: 2rem;
     color: black;
-    font-family: 'Gentium Plus', serif;
+    font-family: 'Merriweather', serif;
     text-shadow: 2px 2px white;
 }
 #about-section img{
@@ -87,7 +87,7 @@ body{
 #Innovation-section p{
     font-size: 2rem;
     color: black;
-    font-family: 'Gentium Plus', serif;
+    font-family: 'Merriweather', serif;
     text-shadow: 0.25px 0.25px white;
 }
 .Innovation-problem{
@@ -96,9 +96,6 @@ body{
 .Innovation-problem img{
     width: 85%;
     border-radius: 5%;
-}
-.Innovation-solution {
-    background-color: white;
 }
 .Innovation-solution img{
     width: 85%;
@@ -130,7 +127,7 @@ body{
 }
 #gallery-section h3{
     font-size: 1.75rem;
-    font-family: 'Gentium Plus', serif;
+    font-family: 'Merriweather', serif;
     padding-top: 3%;
     padding-bottom: 3%;
     margin: 0 15%;
@@ -163,17 +160,7 @@ body{
         display: none;
     }
 }
-#testimonial-section {
-    background-color: #A6CF98;
-}
-.founder {
-    background-color:white;
-    font-size: 2rem;
-    font-family: 'Gentium Plus', serif;
-    text-shadow: 2px 2px white;
-    padding:10px
 
-}
 .founder-sub-container {
     
     margin-left: 20%;
@@ -189,17 +176,11 @@ body{
 }
 
 .contact {
-    font-family:'Gentium Plus', serif;
+    font-family: 'Merriweather', serif;
     font-size:24px; 
     font-weight:bold;
     color:black;
-    padding:10px;
-    text-align: center;
-    background-color:#A6CF98;
-
-    
-}
-#founder-section img{
-    width: 25%;
-    border-radius: 5%;
+    padding:100px;
+    text-align: center;   
+    background-color: #b5d4aade;
 }
